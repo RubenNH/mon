@@ -1,6 +1,6 @@
 import { Schema, model } from "mongoose";
 
-const task = new Schema({
+const taskS = new Schema({
     title: {
         type: String,
         required: true,
@@ -23,4 +23,4 @@ const task = new Schema({
 
 
 
-export default model("Task", taskSchema);
+export default model("Task", taskS);
